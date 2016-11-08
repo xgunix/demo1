@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "newClassVC.h"
 @interface ViewController ()
 
 @end
@@ -18,8 +18,12 @@
     [super viewDidLoad];
     NSLog(@"hello world");
     [self practiceBranch2];
+    [self setupNewClass];
 }
-
+- (void)setupNewClass{
+    newClassVC *newVC = [[newClassVC alloc]init];
+    NSLog(@"create a newClass instantce:%@",newVC);
+}
 - (void)practiceBranch2{
     NSLog(@"this is the second branchPractice, because in the first time, I forgot to commit, so there is noting left for the first time practice");
 }
