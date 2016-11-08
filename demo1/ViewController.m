@@ -17,9 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"hello world");
+    [self practiceBranch2];
 }
 
-
+- (void)practiceBranch2{
+    NSLog(@"this is the second branchPractice, because in the first time, I forgot to commit, so there is noting left for the first time practice");
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
