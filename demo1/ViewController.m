@@ -26,6 +26,7 @@
 }
 - (void)practiceBranch2{
     NSLog(@"this is the second branchPractice, because in the first time, I forgot to commit, so there is noting left for the first time practice");
+    NSLog(@"在从gitHub拷贝过的项目里再加一句话,这句话最早是在branch中的");
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
